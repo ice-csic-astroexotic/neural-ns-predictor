@@ -1,0 +1,10 @@
+[project]
+name = "neuralns"
+version = "0.1.0"
+description = "Neural network framework for predictions based on neutron star simulations"
+authors = [{ name="Konstantinos Kovlakas", email="kkovla@gmail.com" }]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

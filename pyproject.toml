@@ -5,6 +5,17 @@ description = "Neural network framework for predictions based on neutron star si
 authors = [{ name="Konstantinos Kovlakas", email="kkovla@gmail.com" }]
 requires-python = ">=3.11"
 
+dependencies = [
+	"tensorflow>=2.12; python_version >= '3.11'",
+	"matplotlib>=3.7; python_version >= '3.11'",
+	"numpy>=1.24; python_version >= '3.11'",
+	"pandas>=1.5; python_version >= '3.11'",
+	"tqdm>=4.65; python_version >= '3.11'",
+	"keras-tuner>=1.4; python_version >= '3.11'",
+	"scikit-learn>=1.2; python_version >= '3.11'",
+	"scipy>=1.10; python_version >= '3.11'"
+]
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"

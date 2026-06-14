@@ -6,7 +6,7 @@ Download or clone the repository, and enter the main folder ```neural-ns-predict
 ## Step 2: seeting up the conda environment
 Create a clean conda environment using the following command:
 ```bash
-conda env create -f environment.yml -n neuralns
+conda create -n neuralns python=3.11 -y
 ```
 and then activate it:
 ```bash
@@ -16,7 +16,9 @@ Optionally, you can use a different name by changing `neuralns`.
 
 ## Step 3: installing the package
 From the top folder, run the following command to install the package:
-```pip install .```
-Developers that modify the package, can install it as editable in the following way:
-```pip install -e .```
+```pip install neural-ns-predictor```
+Developers that modify the package, can install it as an editable package
+(to avoid re-install every time) in the following way:
+```pip install -e neural-ns-predictor```
+
 # Application 1: The catalog paper

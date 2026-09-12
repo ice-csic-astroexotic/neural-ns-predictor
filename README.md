@@ -15,10 +15,25 @@ conda activate neuralns
 Optionally, you can use a different name by changing `neuralns`.
 
 ## Step 3: installing the package
+
+### Linux
+
 From the top folder, run the following command to install the package:
 ```pip install neural-ns-predictor```
 Developers that modify the package, can install it as an editable package
 (to avoid re-install every time) in the following way:
 ```pip install -e neural-ns-predictor```
+
+### Mac OS
+
+From the top folder, run the following command to install the package:
+```python -m pip install .```
+Developers that modify the package, can install it as an editable package
+(to avoid re-install every time) in the following way:
+```python -m pip install -e .```
+
+If there are problems with the rendering of LaTeX equations in the plots created in the notebooks, please run:
+```brew install --cask mactex-no-gui```
+
 
 # Application 1: The catalog paper
